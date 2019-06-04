@@ -1,0 +1,19 @@
+{
+  "name": "samueldavis/proc",
+  "description": "An object wrapper for the various proc_* functions.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Samuel Davis",
+      "email": "sam.davis@alterimaging.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SamuelDavis\\Proc\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0"
+  }
+}
